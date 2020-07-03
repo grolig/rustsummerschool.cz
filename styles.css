@@ -89,7 +89,7 @@ main {
     justify-content: center;
     background: var(--white);
     color: var(--black);
-    padding: 1.5rem 0 3rem;
+    padding: 1.5rem 1rem 3rem;
 }
 
 .info-section__container--maroon {
@@ -122,6 +122,8 @@ main {
     height: 1rem;
     top: -2rem;
     background: var(--yellow);
+    width: calc(100% + 2rem);
+    left: -1rem;
 }
 
 .info-section__container--maroon .info-section__highlight {
@@ -137,7 +139,7 @@ main {
 }
 
 .hero {
-    padding: 3rem 0 5rem;
+    padding: 3rem 1rem 5rem;
 }
 
 .safe-the-date {
@@ -173,11 +175,6 @@ main {
 }
 
 @media screen and (min-width: 600px) {
-    .info-section__row {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-    }
 
     .button {
         width: 20vw;
@@ -204,5 +201,13 @@ main {
     .info-section__highlight {
         width: calc(100% + 1rem);
         left: -0.5rem;
+    }
+}
+
+@media screen and (min-width: 756px) {
+    .info-section__row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
     }
 }
