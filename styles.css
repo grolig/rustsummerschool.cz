@@ -40,7 +40,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    margin: 0 1.5rem;
+    margin: 0 0.5rem;
     font-size: 1.5rem;
 }
 
@@ -180,10 +180,6 @@ main {
         width: 20vw;
     }
 
-    .info-section__header-container {
-        width: max-content;
-    }
-
     .navbar__brand{
         justify-content: flex-start;
         flex-grow: 0;
@@ -205,6 +201,14 @@ main {
 }
 
 @media screen and (min-width: 756px) {
+    .navbar__brand {
+        margin: 0 1.5rem;
+    }
+
+    .info-section__header-container {
+        width: max-content;
+    }
+
     .info-section__row {
         display: grid;
         grid-template-columns: 1fr 1fr;
