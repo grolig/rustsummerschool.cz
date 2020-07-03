@@ -64,6 +64,8 @@ a {
     position: relative;
     z-index: 100;
     font-size: 1.1rem;
+    color: var(--black);
+    text-decoration: none;
 }
 
 .navbar__item-highlight {
