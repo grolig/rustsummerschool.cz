@@ -156,6 +156,7 @@ main {
     border-radius: 0.3rem;
     font-family: 'Alfa Slab One', cursive;
     letter-spacing: 0.05rem;
+    width: 30vw;
 }
 
 .button:hover {
